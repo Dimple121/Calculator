@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;   
+    font-family: 'Dancing Script', cursive;
+    color: rgb(103, 128, 148);
+    background: linear-gradient(to bottom,rgb(142, 210, 237) 0%,rgb(240, 212, 239) 100%);
+}
+#cal{
+    margin-left: 500px;
+    margin-top: 60px;
+    height: 470px;
+    width: 400px;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(240, 248, 255, 0.726);
+}
+#input{
+    margin-top:20px ;
+    height: 55px;
+    width: 330px;
+    border-radius: 7px;
+    border-color: white;
+    /* border-style: none; */
+    /* line-height: 120px; */
+    font-size: 25px;
+    padding: 18px;
+    margin-bottom: 24px;
+}
+button{
+    height: 50px;
+    width: 53px;
+    margin:4px;
+    color: aliceblue;
+    background-color: rgb(71, 67, 67);
+}
+button:hover{
+    background-color: black;
+}
+#clr{
+    width: 118px;
+}
+#equal{
+    width: 118px;
+}
